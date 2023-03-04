@@ -1,0 +1,711 @@
+.containerPeliculasPremiadas{
+    position: absolute;
+    top: 170%;
+    left: 38%;
+    padding: 10px;
+}
+
+.cardPelPre {
+    position: absolute;
+    top: 400%;
+    left: -90%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    height: 420px;
+    background: #000;
+    margin-top: 40px;
+}
+.cardPelPre .imagePelPre {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.cardPelPre .imagePelPre img {
+    width: 100%;
+    transition: .5s;
+}
+.cardPelPre:hover .imagePelPre img {
+    opacity: .5;
+    transform: translateX(30%);
+}
+.cardPelPre .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: #51cbfc;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.cardPelPre:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.cardPelPre .details .center {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cardPelPre .details .center h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.cardPelPre .details .center h1 span {
+    font-size: 14px;
+    color: #262626;
+}
+.cardPelPre .details .center p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}
+/* -------------------------------------------------------------------------------------------------------- */
+
+.cardPelPre2 {
+    position: absolute;
+    top: 400%;
+    left: 5%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    height: 420px;
+    background: #000;
+    margin-top: 40px;
+}
+.cardPelPre2 .imagePelPre2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.cardPelPre2 .imagePelPre2 img {
+    width: 100%;
+    transition: .5s;
+}
+.cardPelPre2:hover .imagePelPre2 img {
+    opacity: .5;
+    transform: translateX(30%);
+}
+.cardPelPre2 .details2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: #51cbfc;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.cardPelPre2:hover .details2 {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.cardPelPre2 .details2 .center2 {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cardPelPre2 .details2 .center2 h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.cardPelPre2 .details2 .center2 h1 span {
+    font-size: 14px;
+    color: #262626;
+}
+.cardPelPre2 .details2 .center2 p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.cardPelPre3 {
+    position: absolute;
+    top: 400%;
+    left: 105%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    height: 420px;
+    background: #000;
+    margin-top: 40px;
+}
+.cardPelPre3 .imagePelPre3 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.cardPelPre3 .imagePelPre3 img {
+    width: 100%;
+    transition: .5s;
+}
+.cardPelPre3:hover .imagePelPre3 img {
+    opacity: .5;
+    transform: translateX(30%);
+}
+.cardPelPre3 .details3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: #51cbfc;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.cardPelPre3:hover .details3 {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.cardPelPre3 .details3 .center3 {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cardPelPre3 .details3 .center3 h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.cardPelPre3 .details3 .center3 h1 span {
+    font-size: 14px;
+    color: #262626;
+}
+.cardPelPre3 .details3 .center3 p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+.cardPelPre4 {
+    position: absolute;
+    top: 400%;
+    left: 200%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    height: 420px;
+    background: #000;
+    margin-top: 40px;
+}
+.cardPelPre4 .imagePelPre4 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.cardPelPre4 .imagePelPre4 img {
+    width: 100%;
+    transition: .5s;
+}
+.cardPelPre4:hover .imagePelPre4 img {
+    opacity: .5;
+    transform: translateX(30%);
+}
+.cardPelPre4 .details4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: #51cbfc;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.cardPelPre4:hover .details4 {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.cardPelPre4 .details4 .center4 {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cardPelPre4 .details4 .center4 h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.cardPelPre4 .details4 .center4 h1 span {
+    font-size: 14px;
+    color: #262626;
+}
+.cardPelPre4 .details4 .center4 p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.cardPelPre5 {
+    position: absolute;
+    top: 940%;
+    left: -90%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    height: 420px;
+    background: #000;
+    margin-top: 40px;
+}
+.cardPelPre5 .imagePelPre5 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.cardPelPre5 .imagePelPre5 img {
+    width: 100%;
+    transition: .5s;
+}
+.cardPelPre5:hover .imagePelPre5 img {
+    opacity: .5;
+    transform: translateX(30%);
+}
+.cardPelPre5 .details5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: #51cbfc;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.cardPelPre5:hover .details5 {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.cardPelPre5 .details5 .center5 {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cardPelPre5 .details5 .center5 h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.cardPelPre5 .details5 .center5 h1 span {
+    font-size: 14px;
+    color: #262626;
+}
+.cardPelPre5 .details5 .center5 p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+.cardPelPre6{
+    position: absolute;
+    top: 940%;
+    left: 5%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    height: 420px;
+    background: #000;
+    margin-top: 40px;
+}
+.cardPelPre6 .imagePelPre6 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.cardPelPre6 .imagePelPre6 img {
+    width: 100%;
+    transition: .5s;
+}
+.cardPelPre6:hover .imagePelPre6 img {
+    opacity: .5;
+    transform: translateX(30%);
+}
+.cardPelPre6 .details6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: #51cbfc;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.cardPelPre6:hover .details6 {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.cardPelPre6 .details6 .center6 {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cardPelPre6 .details6 .center6 h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.cardPelPre6 .details6 .center6 h1 span {
+    font-size: 14px;
+    color: #262626;
+}
+.cardPelPre6 .details6 .center6 p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+.cardPelPre7 {
+    position: absolute;
+    top: 940%;
+    left: 105%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    height: 420px;
+    background: #000;
+    margin-top: 40px;
+}
+.cardPelPre7 .imagePelPre7 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.cardPelPre7 .imagePelPre7 img {
+    width: 100%;
+    transition: .5s;
+}
+.cardPelPre7:hover .imagePelPre7 img {
+    opacity: .5;
+    transform: translateX(30%);
+}
+.cardPelPre7 .details7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: #51cbfc;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.cardPelPre7:hover .details7 {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.cardPelPre7 .details7 .center7 {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cardPelPre7 .details7 .center7 h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.cardPelPre7 .details7 .center7 h1 span {
+    font-size: 14px;
+    color: #262626;
+}
+.cardPelPre7 .details7 .center7 p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.cardPelPre8 {
+    position: absolute;
+    top: 940%;
+    left: 200%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    height: 420px;
+    background: #000;
+    margin-top: 40px;
+}
+.cardPelPre8 .imagePelPre8 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.cardPelPre8 .imagePelPre8 img {
+    width: 100%;
+    transition: .5s;
+}
+.cardPelPre8:hover .imagePelPre8 img {
+    opacity: .5;
+    transform: translateX(30%);
+}
+.cardPelPre8 .details8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: #51cbfc;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.cardPelPre8:hover .details8 {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.cardPelPre8 .details8 .center8 {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cardPelPre8 .details8 .center8 h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.cardPelPre8 .details8 .center8 h1 span {
+    font-size: 14px;
+    color: #262626;
+}
+.cardPelPre8 .details8 .center8 p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}
+
+
+.footerPremiadas{
+    position: absolute;
+    top: 290%;
+}
+
+.block {background: rgb(0, 0, 0); padding: 60px; width:100%; margin:0 auto; text-align:justify;}
+#parallax-world-of-ugg 
+.parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://image.cnbcfm.com/api/v1/image/104768589-movies-anywhere.JPG?v=1507816437&w=1920&h=1080); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a9a4dc55-b339-4d9c-b945-b5c286ca3312/de0e95x-de4b1ca6-65cd-4323-8087-1f75310c2ef2.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E5YTRkYzU1LWIzMzktNGQ5Yy1iOTQ1LWI1YzI4NmNhMzMxMlwvZGUwZTk1eC1kZTRiMWNhNi02NWNkLTQzMjMtODA4Ny0xZjc1MzEwYzJlZjIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.20_6IqBPj0BFBnfY_GQ4h1Ek3X2POKiHjR9-C77dty0); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+
+
+@media(max-width:1024px){
+	.containerPeliculasPremiadas{
+        position: absolute;
+        top: 300%;
+        left: 25%;
+		width: 28%;
+        height: 10%;
+	}
+}
+
+@media(max-width:768px){
+	.containerPeliculasPremiadas{
+        position: absolute;
+        top: 430%;
+        left: 40%;
+		width: 18%;
+        height: 10%;
+	}
+}
+
+@media(max-width:425px){
+	.containerPeliculasPremiadas{
+        position: absolute;
+        top: 730%;
+        left: 72%;
+		width: 30%;
+        height: 10%;
+	}
+}
+
+@media(max-width:375px){
+	.containerPeliculasPremiadas{
+        position: absolute;
+        top: 730%;
+        left: 72%;
+		width: 30%;
+        height: 10%;
+	}
+}
+@media(max-width:375px){
+	.h1preliculapremiadasss{
+        position: absolute;
+        top: 80%;
+        left: -200%;
+		/* width: 30%; */
+        /* height: 10%; */
+	}
+}
+@media(max-width:425px){
+	.h1preliculapremiadasss{
+        position: absolute;
+        top: 80%;
+        left: -200%;
+		/* width: 30%; */
+        /* height: 10%; */
+	}
+}
+
+@media(max-width:425px){
+	.cardPelPre{
+        position: absolute;
+        top: 480%;
+        left: -60%;
+		/* width: 30%; */
+        /* height: 10%; */
+	}
+}
+
+@media(max-width:425px){
+	.cardPelPre2{
+        position: absolute;
+        top: 830%;
+        left: -60%;
+	}
+}
+@media(max-width:425px){
+	.cardPelPre3{
+        position: absolute;
+        top: 1200%;
+        left: -60%;
+	}
+}
+@media(max-width:425px){
+	.cardPelPre4{
+        position: absolute;
+        top: 1700%;
+        left: -60%;
+	}
+}
+@media(max-width:425px){
+	.cardPelPre5{
+        position: absolute;
+        top: 2200%;
+        left: -60%;
+	}
+}
+@media(max-width:425px){
+	.cardPelPre6{
+        position: absolute;
+        top: 2700%;
+        left: -60%;
+	}
+}
+@media(max-width:425px){
+	.cardPelPre7{
+        position: absolute;
+        top: 3200%;
+        left: -60%;
+	}
+}
+@media(max-width:425px){
+	.cardPelPre8{
+        position: absolute;
+        top: 3700%;
+        left: -60%;
+	}
+}
+
+
+@media(max-width:375px){
+	.cardPelPre{
+        position: absolute;
+        top: 480%;
+        left: -60%;
+		/* width: 30%; */
+        /* height: 10%; */
+	}
+}
+
+@media(max-width:375px){
+	.cardPelPre2{
+        position: absolute;
+        top: 830%;
+        left: -60%;
+	}
+}
+@media(max-width:375px){
+	.cardPelPre3{
+        position: absolute;
+        top: 1200%;
+        left: -60%;
+	}
+}
+@media(max-width:375px){
+	.cardPelPre4{
+        position: absolute;
+        top: 1700%;
+        left: -60%;
+	}
+}
+@media(max-width:375px){
+	.cardPelPre5{
+        position: absolute;
+        top: 2200%;
+        left: -60%;
+	}
+}
+@media(max-width:375px){
+	.cardPelPre6{
+        position: absolute;
+        top: 2700%;
+        left: -60%;
+	}
+}
+@media(max-width:375px){
+	.cardPelPre7{
+        position: absolute;
+        top: 3200%;
+        left: -60%;
+	}
+}
+@media(max-width:375px){
+	.cardPelPre8{
+        position: absolute;
+        top: 3700%;
+        left: -60%;
+	}
+}
+

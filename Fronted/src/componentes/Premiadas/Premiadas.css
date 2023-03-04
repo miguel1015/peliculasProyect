@@ -1,0 +1,428 @@
+.containerPremiadas {
+  width: 320px;
+  margin: 100px auto 0 auto;
+  perspective: 1000px;
+}
+.carouselPremiadas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: rotate360 60s infinite forwards linear;
+}
+.carousel__face {
+  position: absolute;
+  width: 300px;
+  height: 187px;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+.actors {
+  margin: auto;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+.carousel__face:nth-child(1) {
+  background-image: url("https://www.denofgeek.com/wp-content/uploads/2022/07/Jim-Carrey-Movies-Need-Sequels.jpg?fit=1200%2C675");
+  transform: rotateY(0deg) translateZ(430px);
+}
+.carousel__face:nth-child(2) {
+  background-image: url("https://www.todofondos.net/wp-content/uploads/1920x1080-Margot-Robbie-Wallpaper.jpg");
+  transform: rotateY(40deg) translateZ(430px);
+}
+.carousel__face:nth-child(3) {
+  background-image: url("https://www.todofondos.net/wp-content/uploads/1024x773-Will-Smith-Wallpaper-de-alta-calidad.jpg");
+  transform: rotateY(80deg) translateZ(430px);
+}
+.carousel__face:nth-child(4) {
+  background-image: url("https://i0.wp.com/thehappening.com/wp-content/uploads/2018/11/emma-stone-cantando-1.jpg?fit=1024%2C694&ssl=1");
+  transform: rotateY(120deg) translateZ(430px);
+}
+.carousel__face:nth-child(5) {
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/268/454/552/dwayne-johnson-actor-smile-face-wallpaper-preview.jpg");
+  transform: rotateY(160deg) translateZ(430px);
+}
+.carousel__face:nth-child(6) {
+  background-image: url("https://images7.alphacoders.com/490/490473.jpg");
+  transform: rotateY(200deg) translateZ(430px);
+}
+.carousel__face:nth-child(7) {
+  background-image: url("https://ca-times.brightspotcdn.com/dims4/default/a04ebeb/2147483647/strip/true/crop/4191x2793+0+759/resize/2000x1333!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fe7%2F14%2F25abaf124507a61fbfbf2fda1bb6%2Fla-photos-1staff-819130-env-anya-taylor-joy-portrait-jlc-13968.JPG");
+  transform: rotateY(240deg) translateZ(430px);
+}
+.carousel__face:nth-child(8) {
+  background-image: url("https://wallpapers.com/images/hd/adam-sandler-doing-thumbs-up-ra70zmh3ma4qztxz.jpg");
+  transform: rotateY(280deg) translateZ(430px);
+}
+.carousel__face:nth-child(9) {
+  background-image: url("https://www.xtrafondos.com/descargar.php?id=4292&resolucion=3840x2160");
+  transform: rotateY(320deg) translateZ(430px);
+}
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+/*                                                CARDS CIRCULARES                                                     */
+/* --------------------------------------------------------------------------------------------------------------- */
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+/*                                           JIM CARREY                                                            */
+/* ------------------------------------------------------------------------------------------------------------- */
+.section {
+  display: block;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 80%;
+  left: 2%;
+  padding: 50px;
+}
+.modal-btn:checked + label,
+.modal-btn:not(:checked) + label {
+  position: relative;
+  height: 175px;
+  transition: all 200ms linear;
+  border-radius: 300px;
+  width: 175px;
+  border: none;
+  cursor: pointer;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/181/441/226/truman-show-jim-carrey-truman-burbank-face-wallpaper-preview.jpg");
+  background-position: center;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+.modal-btn:not(:checked) + label:hover {
+  transform: translateY(-5px) scale(1.3);
+  box-shadow: 0 5px 0px rgba(0, 0, 0, 0.4);
+  filter: none;
+  cursor: pointer;
+}
+.modal-btn:checked + label:after,
+.modal-btn:not(:checked) + label:after {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 110;
+  width: 40px;
+  border-radius: 3px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  /* background-color: #ff0000; */
+  color: #ffffff;
+  font-family: "unicons";
+  content: "❌";
+  box-shadow: 0 12px 25px 0 rgba(16, 39, 112, 0.25);
+  transition: all 200ms linear;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+}
+.modal-btn:checked + label:hover:after,
+.modal-btn:not(:checked) + label:hover:after {
+  background-color: #ff0000;
+  color: #ffeba7;
+}
+.modal-btn:checked + label:after {
+  transition: opacity 300ms 300ms ease, transform 300ms 300ms ease,
+    background-color 250ms linear, color 250ms linear;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.modal {
+  position: fixed;
+  display: block;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  overflow-x: hidden;
+  background-color: rgba(31, 32, 41, 0.75);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 250ms 700ms ease;
+}
+.modal-btn:checked ~ .modal {
+  pointer-events: auto;
+  opacity: 1;
+  transition: all 300ms ease-in-out;
+}
+.modal-wrap {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  background-color: #fff;
+  -ms-flex-item-align: center;
+  align-self: center;
+  box-shadow: 0 12px 25px 0 rgba(199, 175, 189, 0.25);
+  opacity: 0;
+  transform: scale(0.6);
+  transition: opacity 250ms 250ms ease, transform 300ms 250ms ease;
+}
+.modal-wrap img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.modal-wrap p {
+  padding: 20px 30px 0 30px;
+}
+.modal-btn:checked ~ .modal .modal-wrap {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 250ms 500ms ease, transform 350ms 500ms ease;
+}
+.modal-btn:checked ~ .logo img {
+  filter: brightness(100%);
+  transition: all 250ms linear;
+}
+@media screen and (max-width: 500px) {
+  .modal-wrap {
+    width: calc(100% - 40px);
+    padding-bottom: 15px;
+  }
+  .modal-wrap p {
+    padding: 15px 20px 0 20px;
+  }
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+/*                                                  MARGOT ROBBIE                                                  */
+/* --------------------------------------------------------------------------------------------------------------- */
+.section2 {
+  /* width: 80%; */
+  display: block;
+  /* display: -ms-flexbox; */
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 80%;
+  left: 15%;
+  padding: 50px;
+}
+.modal-btn2:checked + label,
+.modal-btn2:not(:checked) + label {
+  position: relative;
+  height: 175px;
+  transition: all 200ms linear;
+  border-radius: 300px;
+  width: 175px;
+  border: none;
+  cursor: pointer;
+  background-image: url("https://images.mubicdn.net/images/cast_member/302807/cache-579912-1602750820/image-w856.jpg");
+  background-position: center;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+.modal-btn2:not(:checked) + label:hover {
+  transform: translateY(-5px) scale(1.3);
+  box-shadow: 0 5px 0px rgba(0, 0, 0, 0.4);
+  filter: none;
+  cursor: pointer;
+}
+.modal-btn2:checked + label:after,
+.modal-btn2:not(:checked) + label:after {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 110;
+  width: 40px;
+  border-radius: 3px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  /* background-color: #ff0000; */
+  color: #701010;
+  font-family: "unicons";
+  content: "❌";
+  box-shadow: 0 12px 25px 0 rgba(16, 39, 112, 0.25);
+  transition: all 200ms linear;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+}
+.modal-btn2:checked + label:hover:after,
+.modal-btn2:not(:checked) + label:hover:after {
+  background-color: #ff0000;
+  color: #ffeba7;
+}
+.modal-btn2:checked + label:after {
+  transition: opacity 300ms 300ms ease, transform 300ms 300ms ease,
+    background-color 250ms linear, color 250ms linear;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.modal2 {
+  position: fixed;
+  display: block;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  overflow-x: hidden;
+  background-color: rgba(31, 32, 41, 0.75);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 250ms 700ms ease;
+}
+.modal-btn2:checked ~ .modal2 {
+  pointer-events: auto;
+  opacity: 1;
+  transition: all 300ms ease-in-out;
+}
+.modal-wrap2 {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  background-color: #fff;
+  -ms-flex-item-align: center;
+  align-self: center;
+  box-shadow: 0 12px 25px 0 rgba(199, 175, 189, 0.25);
+  opacity: 0;
+  transform: scale(0.6);
+  transition: opacity 250ms 250ms ease, transform 300ms 250ms ease;
+}
+.modal-wrap2 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.modal-wrap2 p {
+  padding: 20px 30px 0 30px;
+}
+.modal-btn2:checked ~ .modal2 .modal-wrap2 {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 250ms 500ms ease, transform 350ms 500ms ease;
+}
+.modal-btn2:checked ~ .logo img {
+  filter: brightness(100%);
+  transition: all 250ms linear;
+}
+@media screen and (max-width: 500px) {
+  .modal-wrap2 {
+    width: calc(100% - 40px);
+    padding-bottom: 15px;
+  }
+  .modal-wrap2 p {
+    padding: 15px 20px 0 20px;
+  }
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #1f2029;
+}
+
+.apremios {
+  color: tomato;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.apremios:hover {
+  color: #000000;
+}
+
+.divpremiadass {
+  display: grid;
+  width: 100%;
+  position: absolute;
+  top: 77%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+}
+.containerPremiadasGeneral {
+  height: 100%;
+  width: 100%;
+}
+
+.h1preliculapremiadasss {
+  text-align: center;
+  position: relative;
+  background-color: black;
+  color: white;
+  margin: auto;
+  font-size: 3.5rem;
+  font-weight: 300;
+  animation: lights 5s 750ms linear infinite;
+}
+/* ------------------------------------ */
+@media (max-width: 1024px) {
+  .containerPremiadas {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 17%;
+  }
+}
+
+@media(max-width:768px){
+	.containerPremiadas{
+    position: absolute;
+    top: 30%;
+    left: 37%;
+	  width: 0%;
+    height: 10%;
+	}
+}
+
+@media(max-width:425px){
+	.containerPremiadas{
+    position: absolute;
+    top: 32%;
+    left: 37%;
+	  width: 20%;
+    height: 10%;
+	}
+}
+

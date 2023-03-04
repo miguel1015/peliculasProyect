@@ -1,0 +1,8 @@
+{/* <div className='cabeceraHome' >
+        <h1>WELCOME!</h1>
+        <div className='textoHeader'>
+        <h2 className='about'>Let's talk about The 7th art</h2>
+        <p className='headerParraf'>Somos una pagina altamente certificada, 
+        que busca proporcionar todo sobre conociminetos acerca del cine. Como el septimo arte es el cine, queremos mostrar la perspectiva del cine a través del arte y la importancia de cada una.</p>
+        </div>
+      </div> */}

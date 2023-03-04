@@ -1,0 +1,28 @@
+[
+    {
+        "id" : 1,
+        "image": "https://i.pinimg.com/originals/53/45/3e/53453e2d3edf10db24c9048ea3e06d2d.jpg",
+        "title": "Avatar the last airbender"
+    },
+    {
+        "id" : 2,
+        "image": "https://w0.peakpx.com/wallpaper/933/366/HD-wallpaper-movie-everything-everywhere-all-at-once.jpg",
+        "title": "Everything everywhere all at once"
+        
+    },
+    {
+        "id" : 3,
+        "image": "https://www.gratistodo.com/wp-content/uploads/2022/02/Spiderman-No-Way-Home-Wallpapers-1.jpg",
+        "title": "Spiderman no way home"  
+    },
+    {
+        "id" : 4,
+        "image": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/2970945770FC137FF7D5D3408D5D40836FD4C715DE6A1744F6F5AF21B2386827/scale?width=1200&aspectRatio=1.78&format=jpeg",
+        "title": "How i met your mother"
+    },
+    {
+        "id" : 5,
+        "image": "https://1.bp.blogspot.com/-XNK0Jgf1M4o/YRL30xAgRfI/AAAAAAAAsLs/fINIrOm5p4A9LtV2SdRWPzP7pgcAoAPawCLcBGAsYHQ/s0/Episodios-Naruto-Shippuden-Sin-Relleno-Orden-Cronologico.png",
+        "title": "naruto"
+    }
+]
